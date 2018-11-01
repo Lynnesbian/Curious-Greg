@@ -1,2 +1,2 @@
-# Curious-Greg
-Curious Cat Mastodon crossposter thingy c:
+# Moved
+Moved to https://git.lynnesbian.space/lynnesbian/curious-greg
