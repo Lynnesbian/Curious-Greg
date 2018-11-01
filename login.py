@@ -11,8 +11,6 @@ db = sqlite3.connect("database.db")
 c = db.cursor()
 
 c.execute("CREATE TABLE IF NOT EXISTS `data` (username VARCHAR NOT NULL, secret VARCHAR NOT NULL, latest_post VARCHAR)")
-try:
-	client_auth = json.load(open("auth.json"))
-except Exception: #todo: only handle file not found
-	print("Couldn't load auth.json, are you sure you created it?")
+
+
 
